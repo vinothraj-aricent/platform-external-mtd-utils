@@ -1353,7 +1353,7 @@ st->st_mode);
       free(sepath);
 
       con_size = strlen(secontext)+1;
-	printf("the sepath is %s, the  path_name is %s, the secontext is %s \n",sepath,path_name,secontext);
+      dbg_msg(3, "the sepath is %s, the  path_name is %s, the secontext is %s \n", sepath, path_name, secontext);
    } else {
       secontext = NULL;
       con_size = 0;
@@ -1583,7 +1583,7 @@ st->st_mode);
       free(sepath);
 
       con_size = strlen(secontext)+1;
-printf("the sepath is %s, the  path_name is %s, the secontext is %s \n",sepath,path_name,secontext);
+      dbg_msg(3, "the sepath is %s, the  path_name is %s, the secontext is %s \n", sepath, path_name, secontext);
    } else {
       secontext = NULL;
       con_size = 0;
